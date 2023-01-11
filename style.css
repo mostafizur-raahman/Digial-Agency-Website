@@ -95,6 +95,9 @@
     background-blend-mode: overlay;
     color: white;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 
 }
@@ -139,6 +142,31 @@
 }
 
 .service-left-container {
-    margin-top: 200px;
-    margin-left: 50px;
+
+    width: 50%;
+}
+
+
+.service-logo {
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+
+.service {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 8px gray;
+    width: 200px;
+    height: 200px;
+    color: black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+
+.service-up,
+.service-down {
+    display: flex;
 }
