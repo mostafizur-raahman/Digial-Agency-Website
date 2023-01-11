@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    /* border: 1px solid black; */
 }
 
 .color-primary {
@@ -149,9 +150,17 @@
 
 .service-logo {
     width: 50%;
-    padding-bottom: 10px;
+    height: 50%;
+    margin: 0 auto;
+    margin-left: 40px;
 }
 
+.service-head {
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 10px;
+}
 
 .service {
     padding: 10px;
@@ -169,4 +178,109 @@
 .service-up,
 .service-down {
     display: flex;
+}
+
+/*  */
+.call-icon {
+    width: 90px;
+}
+
+.phone-call {
+    display: flex;
+}
+
+.appoinment-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    background-color: orangered;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: -40px;
+
+}
+
+.app-description {
+    width: 60%;
+}
+
+.call-h {
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+
+.call-button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(23, 220, 234);
+}
+
+.call-icon {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.last-section {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.con-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.con-p {
+    width: 100%;
+    padding: 10px;
+}
+
+.appoinment-container {
+
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-section {
+    height: 150vh;
+    width: 100%;
+}
+
+.app-con:hover {
+    background-color: aqua;
+}
+
+.app-con {
+    margin-left: 50px;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.up-container,
+.down-container {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+/* footer */
+.foo {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
 }
